@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    
+    /* 
+    /* width: 100px;
+    height: 100px; */
+}
+
+html
+{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 62.5%;
+    /* margin-left: 15rem; */
+    
+    
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 17.4rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    /* margin-left: 16.5rem;
+    margin-right: 16.5rem; */
+}
+
+.main-nav
+{
+    display: flex;
+    list-style: none;
+    
+}
+
+.main-nav__item a{
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.main-slider
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.main-slider__info
+{
+    width: 50rem;
+    height: 38.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-slider__info h1
+{
+    font-size: 5.8rem;
+}
+
+.main-slider__info p
+{
+    width: 30.1rem;
+    font-size: 1.656rem;
+    line-height: 157.1%;
+}
+
+.page-button
+{
+    background-color: #8B48BF;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    width: 134px;
+    border: none;
+}
+
+.page-h2
+{
+    font-size: 3.6rem;
+    margin-bottom: 20px;
+}
+
+.page-h3
+{
+    font-size: 1.6rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-info
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.main-info-description p
+{
+    width: 433px;
+    font-size: 1.6rem;
+}
+
+/* .main-info-article{
+    width: 553px;
+} */
+.main-info-article__items
+{
+    display: flex;
+    align-items: flex-start;
+    width: 55.3rem;
+}
+
+
+.main-info-article__item-info
+{
+    margin-left: 20px;
+}
+
+.main-info-article__item-info p
+{
+    font-size: 1.63rem;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.main-info-article__button{
+    background-color: #8B48BF;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1.2rem 2.6rem 1.3rem 2.5rem;
+    border-radius: 2.8rem;;
+}
+
+.main-testimonial
+{
+    text-align: center;
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+
+.main-testimonial-info
+{
+    display: flex;
+    /* border: solid 1px blue; */
+    justify-content: center;
+    
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .main-testimonial-info__info
+{
+    height: 21.9rem;  
+    width: 21.9rem; 
+    background-color: #FAFAFA;
+} */
+
+.main-testimonial-info__info{
+    margin-top: 80px;
+    height: 219px;
+    width: 445px;
+    /* border: solid 1px red; */
+    
+    background-color: #FAFAFA;
+}
+
+.main-testimonial-info__info img{
+    margin-top: -30px;
+}
+
+.main-testimonial-info__info p{
+    font-size: 1.6rem;
+    padding: 13.15px;
+    text-align: center;
+    line-height: 157.1%;
+    color: #B9B9C1;
+}
