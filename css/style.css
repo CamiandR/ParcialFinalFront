@@ -83,9 +83,20 @@ header
     background-color: #8B48BF;
     color: white;
     font-size: 1.4rem;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     border-radius: 5rem;
     width: 134px;
+    border: none;
+}
+
+.page-button-go
+{
+    background-color: #8B48BF;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1.5rem 2.4rem;
+    border-radius: 5rem;
+    /* width: 134px; */
     border: none;
 }
 
@@ -273,12 +284,13 @@ footer
 
 .footer-nav__menu li
 {
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
     color: white;
 }
 
 footer input{
-    border-radius: 10px;
+    border-radius: 2.5rem;
+    height: 4.4rem;
 }
 
 .header-hamb{
@@ -288,7 +300,7 @@ footer input{
 @media(max-width:480px)
 {
     header{
-        margin: 0;
+        margin: 0 4rem;
     }
     
     .main-nav
@@ -310,10 +322,15 @@ footer input{
         font-size: 40px;
     }
 
+    .page-div-h2{
+        background-color: #d7b5f0;
+        width: 300px;
+    }
     .main-slider{
         flex-direction: column-reverse;
         margin-right: 0;
         margin-left: 0;
+        margin-bottom: 10rem;
     }
     .main-slider__info
     {
@@ -369,6 +386,31 @@ footer input{
         width: 40.8rem;
     }
 
+    .main-info-article__item-info h3{
+         /* margin-left: -30px; */
+        display: inline-block;
+        background-color: #d7b5f0;
+        margin-left: -40px;
+        padding: 0 30px;
+        height: 43px;
+        z-index: 1;
+        width: 340px;
+    }
+
+    .main-info-article__button{
+        z-index: 2;
+    }
+
+    .main-info-article__item-info p{
+        margin-left: -79px;
+        color: #B9B9C1;
+    }
+
+    .main-info-article__item-info
+    {
+        margin-top: -10px;
+    }
+
     .main-subscription
     {
         flex-direction: column;
@@ -377,7 +419,7 @@ footer input{
     .main-subscription h2
     {
         width: 100%
-    };
+    }
     footer{
         flex-wrap: wrap;
     }
@@ -386,6 +428,41 @@ footer input{
         display: none;
     }
 
+    .footer-form{
+        order: -1;
+    }
+
+    footer nav {
+        width: 50%;
+    }
+
+    .footer-form input
+    {
+        width: 308px;
+    }
     
+    footer section
+    {
+        order: 1;
+    }
+
+    .footer-logo-icon{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer-nav__icon
+    {
+        width: 400px;
+    }
+
+    .footer-logo
+    {
+        width: 121px;
+    }
+
+    .footer-nav__menu{
+        margin-left: 3rem;
+    }
     
 }
