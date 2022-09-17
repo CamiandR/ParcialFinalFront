@@ -10,8 +10,6 @@ body
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
-    
-    
     /* 
     /* width: 100px;
     height: 100px; */
@@ -22,8 +20,6 @@ html
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 62.5%;
     /* margin-left: 15rem; */
-    
-    
 }
 
 header
@@ -90,7 +86,7 @@ header
     font-size: 1.4rem;
     padding: 1.5rem 1rem;
     border-radius: 5rem;
-    width: 134px;
+    width: 13.4rem;
     border: none;
 }
 
@@ -112,21 +108,21 @@ header
     font-size: 1.4rem;
     padding: 1rem;
     border-radius: 5rem;
-    width: 134px;
+    width: 13.4rem;
     border: none;
 }
 
 .page-h2
 {
     font-size: 3.6rem;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .page-h3
 {
     font-size: 1.6rem;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .main-info
@@ -140,7 +136,7 @@ header
 
 .main-info-description p
 {
-    width: 433px;
+    width: 43.3rem;
     font-size: 1.6rem;
 }
 
@@ -157,14 +153,14 @@ header
 
 .main-info-article__item-info
 {
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
 .main-info-article__item-info p
 {
     font-size: 1.63rem;
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .main-info-article__button{
     background-color: #8B48BF;
@@ -207,21 +203,21 @@ header
 }
 
 .main-testimonial-info__info{
-    margin-top: 80px;
-    height: 219px;
-    width: 445px;
+    margin-top: 8rem;
+    height: 21.9rem;
+    width: 44.5rem;
     /* border: solid 1px red; */
     
     background-color: #FAFAFA;
 }
 
 .main-testimonial-info__info img{
-    margin-top: -30px;
+    margin-top: -3rem;
 }
 
 .main-testimonial-info__info p{
     font-size: 1.6rem;
-    padding: 13.15px;
+    padding: 1.315rem;
     text-align: center;
     line-height: 157.1%;
     color: #B9B9C1;
@@ -229,9 +225,9 @@ header
 
 .main-subscription
 {
-    margin-top: 50px;
+    margin-top: 5rem;
     background-color: #8B48BF;
-    height: 225px;
+    height: 22.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -240,7 +236,7 @@ header
 .main-subscription h2{
     color: white;
     font-size: 4rem;
-    width: 578px;
+    width: 57.8rem;
 }
 
 footer
@@ -248,7 +244,7 @@ footer
     display: flex;
     justify-content: space-around;
     background-color: black;
-    height: 247px;
+    height: 24.7rem;
     align-items: center;
 }
 
@@ -257,22 +253,23 @@ footer
     display: flex;
     justify-content: space-around;
     list-style: none;
-    width: 153px;
+    width: 15.3rem;
     padding: 0;
 
 }
 
 .fa-square-facebook, .fa-twitter, .fa-pinterest, .fa-instagram
 {
-    font-size: 20px;
+    font-size: 2rem;
     color: white;
 
 }
 .fa-youtube{
-    font-size: 12px;
+    font-size: 1.2rem;
     background-color: white;
-    padding: 4px;
+    padding: 0.4rem;
     border-radius: 50%;
+    color: black;
 }
 
 .footer-nav__menu
@@ -283,7 +280,7 @@ footer
     font-size: 1.6rem;
     list-style: none;
     /* margin-top: 0;  */
-    height: 134px;
+    height: 13.4rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -292,7 +289,7 @@ footer
 }
 
 .footer-nav__menu .two{
-    margin-top: -100px;
+    margin-top: -10rem;
 }
 
 .footer-nav__menu li
@@ -300,14 +297,24 @@ footer
     margin-bottom: 1rem;
     color: white;
     /* ajustando */
-    margin-right: 259px;
+    margin-right: 25.9rem;
+    
+}
+
+.footer-nav__menu li a
+{
+    text-decoration: none;
+    color: white;
 }
 
 .footer-logo-icon{
-    margin-left: 86px;
+    margin-left: 8.6rem;
 }
 
-
+.footer-logo-icon img
+{
+    margin-bottom: 4rem;
+}
 
 footer input{
     border-radius: 2.5rem;
@@ -319,7 +326,7 @@ footer input{
 
 
 footer p{
-    margin-top: 50px;
+    margin-top: 5rem;
     color: #8C8C94;
     font-size: 1.2rem;
     align-self: flex-end;
@@ -337,7 +344,16 @@ footer p{
     display: none;
 }
 
-@media(max-width:480px)
+button:hover
+{
+    cursor: pointer;
+}
+
+.logo, .footer-logo:hover{
+    cursor: pointer;
+}
+
+@media(max-width:48rem)
 {
     header{
         margin: 0 4rem;
@@ -359,12 +375,12 @@ footer p{
     }
     .fa-solid, .fa-bars
     {
-        font-size: 40px;
+        font-size: 4rem;
     }
 
     .page-div-h2{
         background-color: #d7b5f0;
-        width: 300px;
+        width: 30rem;
     }
     .main-slider{
         flex-direction: column-reverse;
@@ -382,7 +398,7 @@ footer p{
     .main-slider__info h1
     {
         font-size: 5rem;
-        margin-bottom: 10px;
+        margin-bottom: 1rem;
     }
 
     .main-slider__info p
@@ -429,10 +445,10 @@ footer p{
     .main-info-article__item-info h3{
         background-color: #d7b5f0;
         display: inline-block;
-        height: 3.3rem;
-        margin-left: -40px;
-        padding:10px 0px 0px 30px;
-        width: 36.9rem;
+        height: 4.3rem;
+        margin-left: -4rem;
+        padding:1rem 0px 0px 3rem;
+        width: 38.9rem;
         z-index: 1;
     }
 
@@ -441,8 +457,9 @@ footer p{
     }
 
     .main-info-article__item-info p{
-        margin-left: -79px;
+        margin-left: -7.9rem;
         color: #B9B9C1;
+        width: 114%;
     }
 
     .main-info-article__item-info
@@ -453,12 +470,14 @@ footer p{
     .main-subscription
     {
         flex-direction: column;
+        height: 100%;
     }
 
     .main-subscription h2
     {
+        margin-top: 3.5rem;
         text-align: center;
-        width: 100%
+        width: 78%
         
     }
     footer{
