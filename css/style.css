@@ -387,14 +387,13 @@ footer input{
     }
 
     .main-info-article__item-info h3{
-         /* margin-left: -30px; */
-        display: inline-block;
         background-color: #d7b5f0;
+        display: inline-block;
+        height: 33px;
         margin-left: -40px;
-        padding: 0 30px;
-        height: 43px;
+        padding:10px 0px 0px 30px;
+        width: 369px;
         z-index: 1;
-        width: 340px;
     }
 
     .main-info-article__button{
@@ -418,10 +417,13 @@ footer input{
 
     .main-subscription h2
     {
+        text-align: center;
         width: 100%
+        
     }
     footer{
         flex-wrap: wrap;
+        height: 100%;
     }
 
     .name-1, .name-3{
@@ -432,12 +434,10 @@ footer input{
         order: -1;
     }
 
-    footer nav {
-        width: 50%;
-    }
-
     .footer-form input
     {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
         width: 308px;
     }
     
@@ -449,6 +449,7 @@ footer input{
     .footer-logo-icon{
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     .footer-nav__icon
@@ -456,13 +457,25 @@ footer input{
         width: 400px;
     }
 
+    .fa-square-facebook{
+        margin-bottom: 40px;
+    }
+
     .footer-logo
     {
-        width: 121px;
+        /* width: 12.1rem; */
     }
 
     .footer-nav__menu{
         margin-left: 3rem;
     }
-    
+    .page-buttonDos
+    {
+        color: #8B48BF;
+        margin-bottom: 4rem;
+    }
+    .footer-nav__menu
+    {
+        margin-bottom: 4rem;
+    }
 }
