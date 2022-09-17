@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
-/* *{
-    border: 1px solid red;
-} */
+*{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
 
 body
 {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     
     
     /* 
@@ -190,11 +191,7 @@ header
     
 }
 
-footer
-{
-    display: flex;
-    justify-content: space-around;
-}
+
 
 /* .main-testimonial-info__info
 {
@@ -248,6 +245,8 @@ footer
 
 footer
 {
+    display: flex;
+    justify-content: space-around;
     background-color: black;
     height: 247px;
     align-items: center;
@@ -278,24 +277,37 @@ footer
 
 .footer-nav__menu
 {
-
-    /* display: flex; */
-    /* flex-direction: column;
-    flex-wrap: wrap; */
+    /* font-size: 1.6rem;
+    list-style: none;
+    margin-top: 0; */
     font-size: 1.6rem;
     list-style: none;
-    margin-top: 0;
+    /* margin-top: 0;  */
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin-left: -206px; */
+
 }
 
-.two{
-    margin-top: -25px;
+.footer-nav__menu .two{
+    margin-top: -100px;
 }
 
 .footer-nav__menu li
 {
     margin-bottom: 1rem;
     color: white;
+    /* ajustando */
+    margin-right: 259px;
 }
+
+.footer-logo-icon{
+    margin-left: 86px;
+}
+
+
 
 footer input{
     border-radius: 2.5rem;
@@ -304,10 +316,7 @@ footer input{
     color: #B9B9C1;
 }
 
-.footer-logo
-{
-    margin-bottom: 50px;
-}
+
 
 footer p{
     margin-top: 50px;
@@ -323,6 +332,9 @@ footer p{
 .footer-end{
     display: flex;
     flex-direction: column;
+}
+.footer-p2 {
+    display: none;
 }
 
 @media(max-width:480px)
@@ -406,8 +418,8 @@ footer p{
 
     .main-info-article
     {
-        margin-top: 50px;
-        margin-left: 30px;
+        margin-top: 5rem;
+        margin-left: 3rem;
     }
 
     .main-info-article__items{
@@ -417,10 +429,10 @@ footer p{
     .main-info-article__item-info h3{
         background-color: #d7b5f0;
         display: inline-block;
-        height: 33px;
+        height: 3.3rem;
         margin-left: -40px;
         padding:10px 0px 0px 30px;
-        width: 369px;
+        width: 36.9rem;
         z-index: 1;
     }
 
@@ -435,7 +447,7 @@ footer p{
 
     .main-info-article__item-info
     {
-        margin-top: -10px;
+        margin-top: -1rem;
     }
 
     .main-subscription
@@ -450,7 +462,9 @@ footer p{
         
     }
     footer{
-        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        flex-wrap:wrap-reverse;
+        /* flex-direction: column-reverse; */
         height: 100%;
     }
 
@@ -466,27 +480,29 @@ footer p{
     {
         margin-top: 4rem;
         margin-bottom: 3rem;
-        width: 308px;
+        width: 30.8rem;
     }
     
-    footer section
+    /* footer section
     {
         order: 1;
-    }
+    } */
 
     .footer-logo-icon{
         display: flex;
         flex-direction: column-reverse;
+        /* flex-direction: column; */
         align-items: center;
+        margin-left: 0rem;
     }
 
     .footer-nav__icon
     {
-        width: 400px;
+        width: 40rem;
     }
 
     .fa-square-facebook{
-        margin-bottom: 40px;
+        margin-bottom: 4rem;
     }
 
     .page-buttonDos
@@ -496,8 +512,28 @@ footer p{
     }
     .footer-nav__menu
     {
-        margin-left: 3rem;
-        margin-bottom: 4rem;
+        margin: 0rem 0rem 0rem -5rem;
     }
 
+    .footer-p1 {
+        display: none;
+    }
+
+    .footer-p2 {
+        
+        display:block;
+        margin: auto;
+        margin-top: 0rem;
+        margin-bottom: 5.7rem;
+    }
+
+    footer nav{
+        width: 100%;
+    }
+
+    .footer-nav__menu li
+    {
+        margin-right: 0;
+        margin-left: 8.9rem;
+    }
 }
